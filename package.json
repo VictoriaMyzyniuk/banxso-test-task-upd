@@ -2,7 +2,7 @@
   "name": "banxso-test-task-upd",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://victoriamyzyniuk.github.io/banxso-test-task-upd",
+  "homepage": "https://VictoriaMyzyniuk.github.io/banxso-test-task-upd",
   "scripts": {
     "cleanup": "rmdir /q /s .parcel-cache dist",
     "start": "npm run cleanup && parcel src/*.html --no-cache",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victoriamyzyniuk/banxso-test-task-upd.git"
+    "url": "git+https://github.com/VictoriaMyzyniuk/banxso-test-task-upd.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/victoriamyzyniuk/banxso-test-task-upd/issues"
+    "url": "https://github.com/VictoriaMyzyniuk/banxso-test-task-upd/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
