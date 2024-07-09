@@ -1,0 +1,98 @@
+.section_description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 48px;
+}
+
+.content {
+  position: relative;
+  background-color: #000000;
+  padding: 48px 0;
+  border-radius: 45px;
+
+  margin: auto;
+
+  width: 100%;
+  max-width: 1232px;
+  box-sizing: border-box;
+}
+
+.swiper_card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 12px;
+  margin-right: 48px;
+}
+
+.slider_card_img {
+  width: 100%;
+}
+.swiper_card_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.swiper_button {
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: #00d9a6;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.slick-prev-custom,
+.slick-next-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px 0px #0000001a;
+}
+
+.slick-prev-custom {
+  background-color: #ffffff;
+  left: -42px;
+}
+
+.slick-next-custom {
+  background-color: #ff9600;
+  right: -42px;
+}
+
+.slick-dots li button {
+  background-image: url('../images/whiteStar.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &::before {
+    color: #ffffff;
+  }
+}
+
+.slick-dots li.slick-active button {
+  background-image: url('../images/orangeStar.png');
+  &::before {
+    color: #ff9600;
+  }
+}
+
+.slick-dots {
+  bottom: -50px;
+}
